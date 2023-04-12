@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title>Login - MathPro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MathPro</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/reset.css') }}">
 </head>
+
 <body>
 	<div class="login">
-		<h1>Login</h1>
+		<h1>Bem-Vindo a MathPro</h1>
 		<form>
 			<label for="username">Usuario:</label>
-			<input type="text" id="username" name="username" required>
+			<input placeholder="abcd123" type="text" id="username" name="username" required>
 			<label for="password">Senha:</label>
-			<input type="password" id="password" name="password" required>
+			<input placeholder="********"  type="password" id="password" name="password" required>
 			<input type="submit" value="Entrar">
+            <input type="submit" value="Esqueceu sua senha?">
+            <br>
+            <input type="submit" value="Novo por aqui? Faça aqui o seu cadastro!">
 		</form>
 	</div>
 </body>
