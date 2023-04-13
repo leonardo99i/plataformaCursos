@@ -1,5 +1,10 @@
-/* Google Font Import - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+/* Define o estilo de fonte */
+body {
+	font-family: 'Crete Round', serif;
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +17,7 @@
     --body-color: #E4E9F7;
     --sidebar-color: #FFF;
     --primary-color: #695CFE;
-    --primary-color-light: #F6F5FF;
+    --primary-color-light: #f1eef8;
     --toggle-color: #DDD;
     --text-color: #707070;
 

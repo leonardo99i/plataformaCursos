@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/reset.css') }}">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='imgs/logo.png') }}">
 </head>
 
 <body>
@@ -17,7 +22,7 @@
         <header>
             <div class="image-text">
                 <span class="image">
-                    <!--<img src="logo.png" alt="">-->
+                    <img src="{{ url_for('static', filename='imgs/logo.png') }}" alt="logo da MathPro">
                 </span>
 
                 <div class="text logo-text">
