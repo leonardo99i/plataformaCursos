@@ -5,35 +5,35 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/')
+@app.route('/assinatura')
 def assinatura():
     return render_template('assinatura.html')
 
-@app.route('/')
+@app.route('/contato')
 def contato():
     return render_template('contato.html')
 
-@app.route('/')
+@app.route('/meuPerfil')
 def meuPerfil():
     return render_template('meuPerfil.html')
 
-@app.route('/')
+@app.route('/favoritos')
 def favoritos():
     return render_template('favoritos.html')
 
-@app.route('/')
+@app.route('/cadastro')
 def cadastro():
     return render_template('cadastro.html')
 
-@app.route('/')
+@app.route('/cursos')
 def cursos():
     return render_template('cursoss.html')
 
-@app.route('/')
+@app.route('/login')
 def login():
     return render_template('login.html')
 
-@app.route('/')
+@app.route('/pagamento')
 def pagamento():
     return render_template('pagamento.html')
 
