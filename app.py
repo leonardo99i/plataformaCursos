@@ -2,40 +2,40 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def home():
     return render_template('home.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def assinatura():
+    return render_template('assinatura.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def contato():
+    return render_template('contato.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def meuPerfil():
+    return render_template('meuPerfil.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def favoritos():
+    return render_template('favoritos.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def cadastro():
+    return render_template('cadastro.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def cursos():
+    return render_template('cursoss.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def login():
+    return render_template('login.html')
 
 @app.route('/')
-def index():
-    return render_template('home.html')
+def pagamento():
+    return render_template('pagamento.html')
 
 
 if __name__ == '__main__':
