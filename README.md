@@ -1,6 +1,6 @@
 # 🎓 Plataforma de Cursos
 
-Este é um projeto de uma plataforma de cursos online desenvolvido por [seu nome].
+Este é um projeto de uma plataforma de cursos online desenvolvido por Leonardo Ribeiro Leonardi.
 
 © Todos os direitos reservados.
 
